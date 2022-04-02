@@ -1,0 +1,82 @@
+$blueLight : rgba(234, 248, 255, 1);
+$blue : rgba(30, 89, 120, 1);
+
+.regleQcm{
+    text-align: center;
+    color: $blueLight;
+    padding: 6em;
+    line-height: 3em;
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    button{
+        color: $blue;
+        background-color: $blueLight;
+        padding: 0.2em 1em;
+        border: none;
+        font-size: 30px;
+        font-weight: 900;
+        border-radius: 3px;
+        margin-top: 2em;
+        text-transform: uppercase;
+    }
+}
+
+
+.qcmContainer{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 5em 0 0 0;
+}
+
+.questionQcm{
+    color:  white;
+    font-size: 55px;
+
+}
+
+.qcmScores{
+    color: white;
+    font-size: 35px;
+}
+
+.questionQcmContainer{
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    .buttonQcmQuestion{
+        padding: 1em 1.5em 1em 1.5em;
+        font-size: 30px;
+        border: none;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 1em;
+        width: 300px;
+        color: $blue;
+        background-color: $blueLight;
+        
+    }
+
+    .bonneReponse{
+        background-color: green;
+    }
+    .mauvaiseReponse{
+        background-color: red;
+    }
+    .avoidClick{
+        pointer-events:none
+    }
+}

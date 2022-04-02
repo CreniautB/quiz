@@ -1,0 +1,24 @@
+.finalContainer {
+  text-align: center;
+}
+
+.finalContainer h1 {
+  font-size: 35px;
+  color: white;
+  margin: 5em;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.finalContainer a {
+  background-color: #eaf8ff;
+  color: #1e5978;
+  padding: 0.3em 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=final.css.map */

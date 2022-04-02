@@ -1,0 +1,43 @@
+$blueLight : rgba(234, 248, 255, 1);
+$blue : rgba(30, 89, 120, 1);
+
+.addQcmContainer{
+
+    a, button{
+        background-color: $blueLight;
+        color: $blue;
+        padding: 0.3em 1em;
+        border-radius: 3px;
+        margin: 1em;
+        display:  inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    color: $blueLight ;
+    font-size: 30px;
+    text-align: center;
+
+    .newMsgFrom{
+
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        padding: 1em;
+
+        label{
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        input, select{
+            padding: 1em;
+            margin: 1em;
+
+        }
+    }   
+}
+
